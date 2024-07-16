@@ -16,15 +16,15 @@ const Nav = () => {
     </div>
         <div className="w-[50%] max-sm:w-[50%] flex  max-sm:flex-row max-sm:items-center mt-2 sm:mt-0 max-sm:overflow-hidden ">
         <nav className="w-full sm:w-auto max-sm:hidden">
-            <ul className="flex flex-col sm:flex-row gap-3 sm:gap-x-5 mt-2 sm:mt-10">
+            <ul className="flex flex-col sm:flex-row gap-3 sm:gap-x- mt-2 sm:mt-10">
                 {Navs.map((Nav, index) => (
-                    <li key={index} className="text-center sm:text-left">{Nav.name}</li>
+                    <li key={index} className="text-center sm:text-left ml-10 font-medium">{Nav.name}</li>
                 ))}
             </ul>
         </nav>
 
         <div className="flex   max-sm:text-[14px] max-sm:text-center  max-sm:justify-cente">
-            <Button label="Register Now" image={Right} className="mb-5 sm:mb-0 max-sm:text-[10px] " />
+            <Button label="Register Now" image={Right} className="mb-10 sm:mb-0 max-sm:text-[10px] text-center" />
      </div>
         
     </div>
