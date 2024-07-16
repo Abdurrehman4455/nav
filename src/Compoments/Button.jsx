@@ -1,12 +1,14 @@
 import React from 'react'
-import Right from'../Icon/Right.png';
+import Right from'../Icon/Vector.png';
 
 const Button = ({label,image}) => {
   return (
-   <button className='px-10 py-4  mt-[3%] bg-[#4CAF4F] text-[#FFFFFF] flex ml-5  max-sm:px- max-sm:py-1 max-sm:text-center ' >
+   <button className=' px-5   mt-[15%] bg-[#4CAF4F] text-[#FFFFFF] flex ml-10   max-sm:text-center max-sm:text-[13px] max-sm:py-2   rounded-lg ' >
      
-      {label}
-     <img src={Right} alt='a' className='ml-2 mt-2 max-sm:mb-5'/>
+      <p className='mt-2'>{label}</p>
+      <img src={Right} alt='aa' className='ml-3 mt-[15%]'></img>
+      
+     
    </button>
   )
 }

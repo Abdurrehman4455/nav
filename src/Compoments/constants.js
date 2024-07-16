@@ -6,3 +6,9 @@ export const Navs=[
   {name:'Blog'},
   {name:'Pricing'},
 ];
+ export const data=[
+
+{name:'ali'}
+
+
+];
