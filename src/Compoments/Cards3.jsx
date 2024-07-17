@@ -3,7 +3,7 @@ import imgs from'../Icon/Right.png'
 
 const Cards3 = () => {
   return (
-    <div className='pt-10 ml-[12%] max-sm:flex-col max-sm:mr-2 max-sm: flex-wrap max-sm:align-strech max-sm: justify-center  max-sm:align-baseline space-x-2 ' >
+    <div className='pt-10 ml-[12%] max-sm:flex-col max-sm:mr-10 max-sm: flex-wrap max-sm:align-strech max-sm: justify-center  max-sm:align-baseline space-x-2 ' >
 
          <div className='ml-[15%]   w-full flex justify-center  max-sm:flex-col max-sm:mt-5 max-sm:items-center'>
         <div className='w-[15%] h-[290px] bg-card-bg bg-no-repeat     rounded-lg  max-sm:w-[60%] z-10  max-sm:mr-[64px] '>
