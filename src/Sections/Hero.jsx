@@ -11,7 +11,7 @@ const Hero = () => {
 
   return ( 
   
-    <div className='w-full bg-[#F5F7FA] h-[700px]  flex justify-around  flex-wrap max-sm:flex-col max-sm:items-center  pr-5 ml-[3%]'>
+    <div className='w-full bg-[#F5F7FA] h-[700px]  flex justify-around  flex-wrap max-sm:flex-col max-sm:items-center  pr-5 ml-[3%] md:flex lg:flex '>
               
               
             
