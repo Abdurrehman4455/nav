@@ -3,7 +3,7 @@ import imgs from'../Icon/Right.png'
 
 const Cards3 = () => {
   return (
-    <div className='pt-10 ml-[9%] max-sm:flex-col max-sm:mr-2'>
+    <div className='pt-10 ml-[9%] max-sm:flex-col max-sm:mr-2 max-sm: flex-wrap align-strech justify-center align-baseline' >
 
          <div className='ml-[15%]   w-full flex justify-center  max-sm:flex-col max-sm:mt-5 max-sm:items-center'>
         <div className='w-[15%] h-[290px] bg-card-bg bg-no-repeat     rounded-lg  max-sm:w-[60%] z-10  max-sm:mr-[64px] '>
@@ -18,7 +18,7 @@ const Cards3 = () => {
            </div>
           </div>
         </div>
-        <div className='w-[15%] h-[290px] bg-cards-bg  bg-no-repeat   rounded-lg max-sm:mt-[15%]  max-sm:w-[60%]  max-sm:mr-[80px] ml-10' >
+        <div className='w-[15%] h-[290px] bg-cards-bg  bg-no-repeat   rounded-lg max-sm:mt-[15%]  max-sm:w-[60%]  max-sm:mr-[90px] ' >
              <div className='flex justify-center'>
              <div className='w-[240px] rounded-lg bg-white pt-10 mt-[60%] h-[150px] mr-[10%] text-center  max-sm:ml-5 border-2 border-grey-500  max-sm:text-[10px]'>
               <p className='text-[#717171] font-bold'>What are your safeguarding responsibilities and how can you manage them?</p>
@@ -32,7 +32,7 @@ const Cards3 = () => {
 
             
         </div>
-        <div className='w-[20%] h-[290px] bg-cards-bg1 bg-no-repeat    rounded-lg  max-sm:mt-4 max-sm:w-[60%] items-center justify-center  ml-10 max-sm:mr-[80px]'>
+        <div className='w-[20%] h-[290px] bg-cards-bg1 bg-no-repeat    rounded-lg  max-sm:mt-4 max-sm:w-[60%] items-center justify-center  max-sm:mr-[90px]'>
              
         <div className='flex justify-center'>
            
@@ -51,7 +51,7 @@ const Cards3 = () => {
         </div>
 
         
-        <div className='w-[20%] h-[290px] bg-cards-bg1 bg-no-repeat  mr-[50%]      rounded-lg  max-sm:mt-4 max-sm:w-[60%] items-center justify-center  ml-10 max-sm:mr-[80px]'>
+        <div className='w-[20%] h-[290px] bg-cards-bg1 bg-no-repeat  mr-[50%]      rounded-lg  max-sm:mt-4 max-sm:w-[60%] items-center justify-center max-sm:mr-[90px]'>
              
              <div className='flex justify-center '>
                

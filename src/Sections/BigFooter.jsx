@@ -1,8 +1,8 @@
 import React from 'react'
 import Logo from'../Icon/Logo.png';
 import vector from'../Images/Vector.png'
-import images from'../Images/Social Links.png'
-
+import Instabutton from'../SocialButtons/Instabutton';
+import Button from'../SocialButtons/Icon/Path.png';
 const BigFooter = () => {
   return (
     <div className='bg-[#263238] w-full h-[300px]  flex justify-around max-sm:flex-col  max-sm:h-[700px] max-sm:items-center'>
@@ -22,7 +22,11 @@ const BigFooter = () => {
 
          <p className='text-[#F5F7FA] mt-10'>Copyright © 2020 Landify UI Kit.</p>
          <p className='text-[#F5F7FA]'>All rights reserved</p>
-         <img src={images} alt='a' className='mt-10'></img>
+         <div className='flex space-x-1 mt-3'>
+          <Instabutton icon={Button}name='ali' className="ml-10"/>
+
+         
+         </div>
       </div>
     
 
