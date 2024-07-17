@@ -51,7 +51,7 @@ const Cards3 = () => {
         </div>
 
         
-        <div className='w-[20%] h-[290px] bg-cards-bg1 bg-no-repeat  mr-[50%]      rounded-lg  max-sm:mt-4 max-sm:w-[60%] items-center justify-center max-sm:mr-[90px]ml-4 '>
+        <div className='w-[20%] h-[290px] bg-cards-bg1 bg-no-repeat  mr-[50%]      rounded-lg  max-sm:mt-4 max-sm:w-[60%] items-center justify-center max-sm:mr-[90px] ml-4 '>
              
              <div className='flex justify-center '>
                
