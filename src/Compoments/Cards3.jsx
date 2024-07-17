@@ -57,7 +57,7 @@ const Cards3 = () => {
                
              <div className='w-[240px] rounded-lg bg-white pt-10 mt-[60%] h-[150px] mr-[10%] text-center  max-sm:ml-5 border-2 border-grey-500  max-sm:text-[10px]'>
                    <p className='text-[#717171] font-bold'>Revamping the Membership Model with Triathlon Australia</p>
-                   <div className='flex ml-20 mt-5'>
+                   <div className='flex ml-20 mt-2'>
                    <span>Read more</span>
      
                    <img src={imgs} alt='aa'className='ml-3'></img>
