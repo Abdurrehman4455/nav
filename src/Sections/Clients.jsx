@@ -16,10 +16,10 @@ const Clients = () => {
           <h1 className='text-center text-[#4D4D4D] font-semibold text-[50px] mt-4 max-sm:text-[20px]'>Our Clients</h1>
         <p className='text-[#717171] text-center text-[19px] mt-2 max-sm:text-[15px]'>we have  been working with some Fortune 500+clients </p>
 
-        <div className='pt-10 flex  pl-[10px] w-full justify-around  max-sm:flex-col  max-sm:items-center '>
+        <div className='pt-10 flex  pl-[10px] w-full justify-around  max-sm:flex  max-sm:items-center '>
 
             <div className=''>
-                   <img src={Logo1} alt='logo' ></img>
+                   <img src={Logo1} alt='logo' className='max-sm:ml-2' ></img>
                 
             </div>
            <div className=' pl-[15px]'>
