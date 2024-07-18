@@ -49,7 +49,7 @@ const Nav = () => {
         </nav>
 
         <div className="flex   max-sm:text-[14px] max-sm:text-center  max-sm:justify-cente md:hidden lg:block sm:hidden max-sm:hidden lg:mr-[1%]">
-            <Button label="Register Now" image={Right} className="mb-10 sm:mb-0 max-sm:text-[10px] text-center md:hidden" />
+            <Button label="Register Now" image={Right} className="mb-10 sm:mb-0 max-sm:text-[10px] text-center md:hidden lg:pb-10" />
      </div>
         
     </div>
