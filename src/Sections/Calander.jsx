@@ -20,7 +20,7 @@ const Calander = () => {
       <p className="text-[#717171] text-[20px] max-sm:ml-0 max-sm:text-left md:text-[16px] md:text-center lg:text-[18px] lg:text-left">
         Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at libero ultrices mollis. In hac habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi facilisis finibus. In euismod augue vitae nisi ultricies, non aliquet urna tincidunt. Integer in nisi eget nulla commodo faucibus efficitur quis massa. Praesent felis est, finibus et nisi ac, hendrerit venenatis libero. Donec consectetur faucibus ipsum id gravida.
       </p>
-      <div className="md:flex md:justify-center lg:justify-start">
+      <div className="md:flex md:justify-center lg:justify-start max-sm:flex justify-center">
         <Button3 name="Learn More" />
       </div>
     </div>
