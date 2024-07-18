@@ -15,7 +15,7 @@ import BigFooter from './Sections/BigFooter';
 
 function App() {
   return (
-    <div className>
+    <div className ="overflow-hidden">
       <Nav className='mb-[10%]'/>
       <section className='mt-3'>
       <Sliders />
