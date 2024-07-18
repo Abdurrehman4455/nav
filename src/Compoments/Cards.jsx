@@ -7,7 +7,7 @@ const Cards = ({content,content2,content3,content4,content5,content6}) => {
   return (
   
     <div className="flex flex-col items-center space-y-6 pt-10 sm:flex-row sm:justify-around sm:space-x-4 sm:space-y-0 sm:pt-6 md:space-x-6 md:pt-8 lg:space-x-8 lg:pt-10">
-  <div className="w-[60%] h-[270px] bg-white rounded-lg border border-gray-300 shadow-lg flex justify-center items-center sm:w-[25%] sm:h-[300px] md:w-[20%] md:h-[320px] lg:w-[18%] lg:h-[350px]">
+  <div className="w-[60%] h-[270px] bg-white rounded-lg border border-gray-300 shadow-lg flex justify-center items-center sm:w-[25%] sm:h-[300px] md:w-[30%] md:h-[320px] lg:w-[18%] lg:h-[350px]">
     <div className="flex flex-col items-center">
       <div>
         <img src={Icon} alt="icon" className="w-14 md:w-16 lg:w-20" /><br />
@@ -22,7 +22,7 @@ const Cards = ({content,content2,content3,content4,content5,content6}) => {
     </div>
   </div>
 
-  <div className="w-[60%] h-[270px] bg-white rounded-lg border border-gray-300 shadow-lg flex justify-center items-center sm:w-[25%] sm:h-[300px] md:w-[20%] md:h-[320px] lg:w-[18%] lg:h-[350px]">
+  <div className="w-[60%] h-[270px] bg-white rounded-lg border border-gray-300 shadow-lg flex justify-center items-center sm:w-[25%] sm:h-[300px] md:w-[30%] md:h-[320px] lg:w-[18%] lg:h-[350px]">
     <div className="flex flex-col items-center">
       <div>
         <img src={img} alt="icon" className="w-14 md:w-16 lg:w-20" /><br />
@@ -37,7 +37,7 @@ const Cards = ({content,content2,content3,content4,content5,content6}) => {
     </div>
   </div>
 
-  <div className="w-[60%] h-[270px] bg-white rounded-lg border border-gray-300 shadow-lg flex justify-center items-center sm:w-[25%] sm:h-[300px] md:w-[20%] md:h-[320px] lg:w-[18%] lg:h-[350px]">
+  <div className="w-[60%] h-[270px] bg-white rounded-lg border border-gray-300 shadow-lg flex justify-center items-center sm:w-[25%] sm:h-[300px] md:w-[30%] md:h-[320px] lg:w-[18%] lg:h-[350px]">
     <div className="flex flex-col items-center">
       <div>
         <img src={img1} alt="icon" className="w-14 md:w-16 lg:w-20" /><br />
