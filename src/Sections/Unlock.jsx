@@ -12,7 +12,7 @@ const Unlock = () => {
   <h1 className="text-[#4D4D4D] font-semibold text-[50px] mt-1 max-sm:text-[19px] max-sm:mt-1 max-sm:text-left md:text-[20px] md:text-center lg:text-[40px] lg:text-left">
   The unseen of spending three
 </h1>
-<span className="text-[#4D4D4D] font-semibold text-[50px] ml-2 max-sm:text-[19px] max-sm:ml-0 max-sm:text-left md:text-[20px] md:ml-[36%] md:text-center lg:text-left lg:ml-0">
+<span className="text-[#4D4D4D] font-semibold text-[50px] ml-2 max-sm:text-[19px] max-sm:ml-0 max-sm:text-left md:text-[20px] md:ml-[32%] md:text-center lg:text-left lg:ml-0">
   years at Pixelgrade
 </span>
 
