@@ -5,10 +5,10 @@ import Button3 from'../Compoments/Button3';
 const Unlock = () => {
   return (
     <div className='flex justify-center items-center max-sm:flex-col max-sm:mt-20 md:flex-col md:mt-10 lg:flex-row lg:mt-10'>
-  <div className='w-[30%] max-sm:w-[60%] md:w-[50%] lg:w-[30%]'>
-    <img src={Frame} alt='frame' width={500} />
+  <div className='w-[30%] max-sm:w-[60%] md:w-[50%] lg:w-[30%] lg:pt-2'>
+    <img src={Frame} alt='frame' className='mt-10' width={500} />
   </div>
-  <div className="w-[40%] ml-10 pl-[5%] pt-[10%] max-sm:w-full max-sm:pl-0 max-sm:pr-4 max-sm:pt-2 md:w-full md:pl-0 md:pr-4 md:pt-2 lg:w-[50%] lg:pl-[2%] lg:pt-[5%]">
+  <div className="w-[40%] ml-10 pl-[5%]  max-sm:w-full max-sm:pl-0 max-sm:pr-4 max-sm:pt-2 md:w-full md:pl-0 md:pr-4 md:pt-2 lg:w-[50%] lg:pl-[2%] lg:pt-0  ">
   <h1 className="text-[#4D4D4D] font-semibold text-[50px] mt-1 max-sm:text-[19px] max-sm:mt-1 max-sm:text-left md:text-[20px] md:text-center lg:text-[40px] lg:text-left">
   The unseen of spending three
 </h1>

@@ -17,7 +17,7 @@ function App() {
   return (
     <div className ="overflow-hidden">
       <Nav className='mb-[10%]'/>
-      <section className='mt-3'>
+      <section className='mt-0'>
       <Sliders />
       </section>
       

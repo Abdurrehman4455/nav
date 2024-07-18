@@ -11,7 +11,7 @@ const Hero = () => {
 
   return ( 
   
-    <div className='w-full bg-[#F5F7FA] h-[700px] flex justify-around flex-wrap max-sm:flex-col max-sm:items-center pr-5 ml-[3%] md:justify-around md:h-[700px] lg:justify-around lg:h-[700px]'>
+    <div className='w-full bg-[#F5F7FA] h-[700px] flex justify-around flex-wrap max-sm:flex-col max-sm:items-center pr-5 ml-[3%] md:justify-around md:h-[700px] lg:justify-around lg:h-[700px] lg:mt-0'>
     <div className="w-full md:w-[40%] lg:w-[30%] pt-[10%] md:pt-[10%] lg:pt-[10%] max-sm:pt-2 max-sm:w-full max-sm:pl-0 max-sm:pr-4 ml-[4%] md:ml-0 lg:ml-0">
       <h1 className="font-semibold text-[55px] leading-[76px] text-[#4D4D4D] max-sm:text-left max-sm:text-[20px] max-sm:leading-[24px] max-sm:mt-1 md:text-[40px] md:leading-[56px] md:mt-2 lg:text-[48px] lg:leading-[66px] lg:mt-3 max-sm:text-[28px]">
         Lesson and insights

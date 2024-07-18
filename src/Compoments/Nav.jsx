@@ -28,7 +28,7 @@ const Nav = () => {
         <span className="ml-2 font-bold text-lg sm:text-4xl leading-9 text-[#263238] max-sm:text-[27px]">Nexcent</span>
     </div>
 
-        <div className="w-[50%] max-sm:w-[50%] flex  max-sm:flex-row max-sm:items-center mt-2 sm:mt-0 max-sm:overflow-hidden md:justify-end md:mr-4  pr-11 lg:mr-4 max-sm:justify-end sm:justify-end sm:mt-7 lg:mt-0">
+        <div className="w-[50%] max-sm:w-[50%] flex  max-sm:flex-row max-sm:items-center mt-2 sm:mt-0 max-sm:overflow-hidden md:justify-end md:mr-4  pr-11 lg:mr-4 max-sm:justify-end sm:justify-end sm:mt-7 lg:mt-0 lg:mr-[10%]">
         
         <div className="md:block lg:hidden max-sm:block max-md:hidden sm:block md:mt-10  max-sm:mt-5 max-sm:ml-[13px] sm:justify-end">
           <button onClick={toggleDropdown} className="text-lg font-semibold flex items-cente max-sm:ml-">
@@ -40,7 +40,7 @@ const Nav = () => {
           </button>
         </div>
 
-        <nav className="w-full sm:w-auto max-sm:hidden md:hidden lg:block sm:hidden lg:mr-[2%] ">
+        <nav className="w-full sm:w-auto max-sm:hidden md:hidden lg:block sm:hidden lg:mr-[2%] lg:mb-10 ">
             <ul className="flex flex-col sm:flex-row gap-3 sm:gap-x-  sm:mt-10">
                 {Navs.map((Nav, index) => (
                     <li key={index} className="text-center sm:text-left ml-10 font-medium">{Nav.name}</li>
