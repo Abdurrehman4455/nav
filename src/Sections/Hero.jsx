@@ -27,12 +27,12 @@ const Hero = () => {
       </div>
     </div>
     
-    <div className='w-[50%] md:w-[50%] lg:w-[40%] sm:mt-[5%] md:mt-[10%] lg:mt-[8%] ml-10 mb-10'>
-      <div className=' sm:w-[80%] md:w-[60%] lg:w-[60%] sm:pt-[5%] md:pt-[10%] lg:pt-[10%] md:ml-10 lg:ml-10 pb-[20%]'>
+    <div className='w-[50%] md:w-[50%] lg:w-[40%] sm:mt-[5%] md:mt-[10%] lg:mt-[4%] ml-10 mb-10'>
+      <div className=' sm:w-[80%] md:w-[60%] lg:w-[60%] sm:pt-[5%] md:pt-[10%] lg:pt-[%] md:ml-10 lg:ml-10 '>
         <img src={IL} alt="" className="mb-[10%]" />
       </div>
     </div>
-    <div className=' sm:w-[80%] md:w-[60%] lg:w-[50%] sm:pl-0 md:pl-[26%] lg:pl-[20%] mt-[8%] sm:pt-[20%] items-center'>
+    <div className=' sm:w-[80%] md:w-[60%] lg:w-[50%] sm:pl-0 md:pl-[26%] lg:pl-[10%] mt-[2%] sm:pt-[20%] items-center'>
       <img src={Dot} alt='dot' width={30} />
     </div>
   </div>
