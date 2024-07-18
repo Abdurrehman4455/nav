@@ -10,7 +10,7 @@ const Calander = () => {
     <div className='w-[30%] max-sm:w-[60%] md:w-[50%] lg:w-[30%]'>
       <img src={pana} alt='frame' width={500} />
     </div>
-    <div className="w-[40%] pl-[5%] pt-[10%] ml-10 max-sm:w-full max-sm:pl-0 max-sm:pr-4 max-sm:pt-2 md:w-full md:pl-0 md:pr-4 md:pt-2 lg:w-[50%] lg:pl-[2%] lg:pt-[5%]">
+    <div className="w-[40%] pl-[5%] pt-[10%] ml-10 max-sm:w-full max-sm:pl-0 max-sm:pr-4 max-sm:pt-2 md:w-full md:pl-0 md:pr-4 md:pt-2 lg:w-[50%] lg:pl-[2%] lg:pt-[5%] lg:mb-[120px]">
       <h1 className="text-[#4D4D4D] font-bold text-[40px] mt-1 max-sm:text-[19px] max-sm:mt-1 max-sm:text-left md:text-[30px] md:text-center lg:text-[40px] lg:text-left">
         How to design your site footer like
       </h1>
