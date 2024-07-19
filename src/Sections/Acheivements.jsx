@@ -5,6 +5,10 @@ import a from'../Images/2.png'
 import ba from '../Images/1 (1).png'
 import ca from '../Images/3.png'
 import da from'../Images/4.png'
+import icon from "../Images/2.svg"
+import icons from "../Images/1 (2).svg"
+import icons1 from "../Images/3.svg"
+import icons12 from "../Images/4.svg"
 const Acheivements = () => {
   return (
 <div className='flex justify-between mt-[10%] ml-[3%] max-sm:flex-col max-sm:items-center md:flex-col md:items-center md:ml-[10%] md:mt-10 lg:flex-row lg:ml-[3%]'>
@@ -17,12 +21,13 @@ const Acheivements = () => {
   <div className="w-[60%] max-sm:mt-10 max-sm:items-center md:w-[80%] md:mt-10 lg:w-[60%] lg:mt-0">
     <div className="flex flex-wrap justify-between max-sm:flex-col md:flex-col md:items-center lg:flex-row">
       <div className="flex w-[70%] justify-between mb-4 md:w-full md:justify-center lg:w-[70%] lg:justify-between">
-        <img src={a} alt="a" className="w-[300px] md:w-[45%] lg:w-[300px] mb-4 md:mb-0 lg:mb-4"/>
-        <img src={ba} alt="ba" className="w-[300px] md:w-[45%] lg:w-[300px]"/>
+        <img src={icon} alt="a" className="w-[300px] md:w-[45%] lg:w-[300px] mb-4 md:mb-0 lg:mb-4"/>
+        <img src={icons} alt="ba" className="w-[300px] md:w-[45%] lg:w-[300px]"/>
       </div>
       <div className="flex w-[70%] justify-between mb-4 md:w-full md:justify-center lg:w-[70%] lg:justify-between">
-        <img src={ca} alt="ca" className="w-[300px] md:w-[45%] lg:w-[300px] mb-4 md:mb-0 lg:mb-4"/>
-        <img src={da} alt="da" className="w-[300px] md:w-[45%] lg:w-[300px]"/>
+        <img src={icons1} alt="ca" className="w-[300px] md:w-[45%] lg:w-[300px] mb-4 md:mb-0 lg:mb-4"/>
+
+        <img src={icons12} alt="da" className="w-[300px] md:w-[45%] lg:w-[300px]"/>
       </div>
     </div>
   </div>
