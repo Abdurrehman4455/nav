@@ -38,10 +38,10 @@ const BigFooter = () => {
       <div className="text-white">Status</div>
     </div>
     <div className="text-white p-[4%] max-sm:text-[16px] md:text-center md:w-full lg:text-left">
-      <h1 className="font-bold">Stay up to date</h1>
+      <h1 className="font-bold sm:text-center max-sm:text-center">Stay up to date</h1>
       <div className="w-full lg:mt-4 md:mt-2">
         <span className="max-sm:ml-0">
-          <img src={vector} alt="a" className="absolute mt-4 ml-[16%] max-sm:ml-[45%] max-sm:mt-5 sm:ml-[10%] lg:ml-[16%] md:ml-[59%]" />
+          <img src={vector} alt="a" className="absolute mt-4 ml-[16%] max-sm:ml-[45%] max-sm:mt-5 sm:ml-[10%] lg:ml-[15%] md:ml-[59%] " />
         </span>
         <input className="text-[white] rounded-lg h-[50px] w-[300px] bg-[grey] max-sm:w-[210px] md:w-[250px] " type="text" placeholder="   enter your email address" />
       </div>
