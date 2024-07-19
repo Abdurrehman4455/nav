@@ -41,11 +41,11 @@ const Customers = () => {
           <div className="flex justify-center mb-4 md:w-full">
             <img src={img7} alt="log" className="md:w-[40px] md:h-[40px]" />
           </div>
-          <div className="flex flex-col items-center">
+          <div className="flex  items-center ">
             <h1 className="font-bold text-[#4CAF4F] max-sm:text-[10px] max-sm:ml-0 max-sm:mt-2 md:text-center">Meet all customers</h1>
-            <div className="pl-2 mt-1 max-sm:pl-0 md:pl-0">
+          
               <img src={img8} alt="a" className="md:w-[40px] md:h-[40px]" />
-            </div>
+            
           </div>
         </div>
       </div>
