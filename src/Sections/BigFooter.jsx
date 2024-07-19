@@ -7,7 +7,7 @@ import Instabutton from '../SocialButtons/Instabutton';
 
 const BigFooter = () => {
   return (
-    <div className='bg-[#263238] w-full h-[300px]  flex justify-around max-sm:flex-col  max-sm:h-[1200px] max-sm:items-center   '>
+    <div className='bg-[#263238] w-full h-[300px]  flex justify-around max-sm:flex-col  max-sm:h-[1500px] max-sm:items-center   '>
       <div className="  font-semibold flex mt-10  p-[2%]    ">
         <div>
         <img 
