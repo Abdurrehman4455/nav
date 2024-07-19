@@ -3,6 +3,7 @@ import Button from'../SocialButtons/Icon/Path.png';
 import basket from'../SocialButtons/Icon/basket.png'
 import Twit from'../SocialButtons/Icon/twiter.png';
 import youtube from'../SocialButtons/Icon/youtube.png';
+import { ImPlay } from "react-icons/im";
 const Instabutton = ({icon,name}) => {
 
 
@@ -30,7 +31,7 @@ const Instabutton = ({icon,name}) => {
            <img src={Twit} alt='a'className='w-5 ml-3' ></img>
        </button>
        <button className='w-12 h-12 rounded-full bg-[grey] ml-2' onClick={handleButtonClick4}>
-           <img src={youtube} alt='a'className='w-5 ml-3' ></img>
+         <ImPlay className='w-5 ml-3' />
        </button>
     </div>
   )

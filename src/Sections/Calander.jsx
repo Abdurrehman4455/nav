@@ -1,5 +1,5 @@
 import React from 'react'
-import pana from'../Images/pana.png';
+import pana from'../Images/Group 238.svg';
 import Button3 from '../Compoments/Button3';
 
 

@@ -18,8 +18,8 @@ const Nav = () => {
 
     
   return ( 
-    <div className="w-full bg-[#FFFFFF] flex flex-wrap justify-between items-center ml-10 p-1 sm:flex-nowrap sm:ml-0 sm:mt-0 overflow-x-hidden max-sm:overflow-x-hidden max-sm:ml-0 md:flex-nowrap md:ml-0 xl:flex-nowrap xl:ml-0 xl:mt-0 xl:overflow-x-hidden">
-    <div className="w-[30%] max-sm:w-[20%] flex items-center font-semibold sm:pl-[10%] max-sm:h-[30px] max-sm:mt-5 max-sm:overflow-x-hidden max-sm:ml-10 md:mt-10 lg:mt-0 xl:mt-0 xl:ml-0">
+    <div className="w-full bg-[#FFFFFF] flex flex-wrap justify-between items-center ml-10 p-1 sm:flex-nowrap sm:ml-0 sm:mt-0  max-sm:ml-0 md:flex-nowrap md:ml-0 xl:flex-nowrap xl:ml-0 xl:mt-0">
+    <div className="w-[30%] max-sm:w-[20%] flex items-center font-semibold sm:pl-[10%] max-sm:h-[30px] max-sm:mt-5  max-sm:ml-10 md:mt-10 lg:mt-0 xl:mt-0 xl:ml-0">
       <img 
         src={Logo} 
         alt="logo" 
@@ -39,8 +39,8 @@ const Nav = () => {
         </button>
       </div>
   
-      <nav className="w-full sm:w-auto max-sm:hidden md:hidden lg:block sm:hidden lg:mr-[2%] lg:mb-10 xl:block xl:mr-0 xl:mb-0">
-        <ul className="flex flex-col sm:flex-row gap-3 sm:gap-x-4 sm:mt-10 xl:flex-row xl:gap-x-6 xl:mt-0">
+      <nav className="w-full sm:w-auto max-sm:hidden md:hidden lg:block sm:hidden lg:mr-[2%] lg:mb-10 xl:block xl:mr-0 xl:mb-0 xl:mt-10 ">
+        <ul className="flex flex-col sm:flex-row gap-3 sm:gap-x-4 sm:mt-10 xl:flex-row xl:gap-x-6 xl:mt-0 xl:ml-[13%]">
           {Navs.map((Nav, index) => (
             <li key={index} className="text-center sm:text-left ml-10 font-medium xl:ml-4">{Nav.name}</li>
           ))}

@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from'../Images/image 9 (1).png'
+import Image from'../Images/image 9 (2).svg'
 import imgs from'../Images/001.png'
 import img2 from'..//Images/Logo (5).png'
 import img4 from'..//Images/Logo (6).png'
@@ -7,6 +7,14 @@ import img5 from'..//Images/Logo (7).png'
 import img6 from'..//Images/Logo (8).png'
 import img7 from'..//Images/Logo (17).png'
 import img8 from'../Icon/Right.png';
+import Logo from'../Images/Logo.svg'
+import Logo1 from'../Images/Logo (1).svg'
+import Logo2 from'../Images/Logo (2).svg'
+import Logo3 from'../Images/Logo (4).svg'
+import Logo4 from'../Images/Logo (5).svg'
+import Logo5 from'../Images/Logo (6).svg'
+import Logo6 from'../Images/Right.svg'
+
 
 const Customers = () => {
   return (
@@ -24,27 +32,27 @@ const Customers = () => {
       <div className="pt-4 md:pt-2">
         <div className="flex justify-between w-[70%] max-sm:flex md:flex-col md:w-full md:items-center max-sm:mt-3 lg:flex-row">
           <div className="flex justify-center mb-4 md:w-full">
-            <img src={imgs} alt="log" className="md:w-[40px] md:h-[40px]" />
+            <img src={Logo} alt="log" className="md:w-[40px] md:h-[40px]" />
           </div>
           <div className="flex justify-center mb-4 md:w-full">
-            <img src={img2} alt="log" className="md:w-[40px] md:h-[40px]" />
+            <img src={Logo1} alt="log" className="md:w-[40px] md:h-[40px]" />
           </div>
           <div className="flex justify-center mb-4 md:w-full">
-            <img src={img4} alt="log" className="md:w-[40px] md:h-[40px]" />
+            <img src={Logo2} alt="log" className="md:w-[40px] md:h-[40px]" />
           </div>
           <div className="flex justify-center mb-4 md:w-full">
-            <img src={img5} alt="log" className="md:w-[40px] md:h-[40px]" />
+            <img src={Logo3} alt="log" className="md:w-[40px] md:h-[40px]" />
           </div>
           <div className="flex justify-center mb-4 md:w-full">
-            <img src={img6} alt="log" className="md:w-[40px] md:h-[40px]" />
+            <img src={Logo4} alt="log" className="md:w-[40px] md:h-[40px]" />
           </div>
           <div className="flex justify-center mb-4 md:w-full">
-            <img src={img7} alt="log" className="md:w-[40px] md:h-[40px]" />
+            <img src={Logo5} alt="log" className="md:w-[40px] md:h-[40px]" />
           </div>
-          <div className="flex  items-center ">
-            <h1 className="font-bold text-[#4CAF4F] max-sm:text-[10px] max-sm:ml-0 max-sm:mt-2 md:text-center">Meet all customers</h1>
+          <div className="flex  items-center lg:mb-[14px]">
+            <h1 className="font-bold text-[#4CAF4F] max-sm:text-[10px] max-sm:ml-0 max-sm:mt-2 md:text-center ">Meetallcustomers</h1>
           
-              <img src={img8} alt="a" className="md:w-[40px] md:h-[40px]" />
+                <img src={Logo6} alt="a" className="md:w-[40px] md:h-[40px] lg:w-[10px] lg:ml-[5px] lg:mt-[2px]" />
             
           </div>
         </div>

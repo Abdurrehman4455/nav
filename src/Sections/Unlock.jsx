@@ -1,5 +1,5 @@
 import React from 'react'
-import Frame from'../Images/Frame 35.png'
+import Frame from'../Images/Frame 35.svg'
 import Button3 from'../Compoments/Button3';
 
 const Unlock = () => {

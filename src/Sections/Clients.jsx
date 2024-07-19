@@ -7,6 +7,13 @@ import Logo4 from '../Images/Logo (7).png'
 import Logo5 from '../Images/Logo (8).png'
 import Logo6 from '../Images/Logo (9).png'
 import Logo7 from '../Images/Logo (10).png'
+import { PiWebcamBold } from "react-icons/pi";
+import { ImAirplane } from "react-icons/im";
+import { ImPhone } from "react-icons/im";
+import { FaCode } from "react-icons/fa";
+import { ImAndroid } from "react-icons/im";
+import { ImWhatsapp } from "react-icons/im"
+import { ImUserCheck } from "react-icons/im";
 
 
 const Clients = () => {
@@ -18,25 +25,25 @@ const Clients = () => {
   
       <div className='pt-10 flex pl-[10px] w-full justify-around max-sm:flex max-sm:items-center md:pl-0 md:justify-between md:pt-8 md:ml-2 lg:ml-[5%]'>
         <div className='md:w-[12%]'>
-          <img src={Logo1} alt='logo' className='max-sm:ml-2 md:ml-0 md:w-[50%] lg:w-[25%]' />
+        <PiWebcamBold className='max-sm:ml-2 md:ml-0 md:w-[50%] lg:w-[55%]' /> 
         </div>
         <div className='pl-[15px] md:pl-0 md:w-[12%]'>
-          <img src={Logo2} alt='logo' className='md:w-[55%] lg:w-[30%]' />
+        <ImAirplane className='md:w-[55%] lg:w-[30%]'/>
         </div>
         <div className='pl-[15px] md:pl-0 md:w-[12%]'>
-          <img src={Logo3} alt='logo' className='md:w-[50%] lg:w-[30%]' />
+        <ImPhone className='md:w-[50%] lg:w-[30%]'  /> 
         </div>
         <div className='pl-[15px] md:pl-0 md:w-[12%]'>
-          <img src={Logo4} alt='logo' className='md:w-[50%] lg:w-[30%]' />
+          <FaCode className='md:w-[50%] lg:w-[30%]' />
         </div>
         <div className='pl-[15px] md:pl-0 md:w-[12%]'>
-          <img src={Logo5} alt='logo' className='md:w-[50%] lg:w-[30%]' />
+          <ImUserCheck  className='md:w-[50%] lg:w-[30%]' />
         </div>
         <div className='pl-[15px] md:pl-0 md:w-[12%]'>
-          <img src={Logo6} alt='logo' className='md:w-[50%] lg:w-[30%]' />
+          <ImAndroid className='md:w-[50%] lg:w-[30%]' />
         </div>
         <div className='pl-[15px] md:pl-0 md:w-[12%]'>
-          <img src={Logo7} alt='logo' className='md:w-[50%] lg:w-[30%]' />
+          <ImWhatsapp className='md:w-[50%] lg:w-[30%]' />
         </div>
       </div>
     </div>

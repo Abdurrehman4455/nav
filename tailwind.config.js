@@ -7,9 +7,9 @@ module.exports = {
       },
       backgroundImage:
       {
-        'card-bg':"url('/src/Images/image 18.png')",
-        'cards-bg':"url('/src/Images/image 19.png')",
-        'cards-bg1':"url('/src/Images/image 20.png')"
+        'card-bg':"url('/src/Images/image 18.svg')",
+        'cards-bg':"url('/src/Images/image 19 (3).svg')",
+        'cards-bg1':"url('/src/Images/image 20.svg')"
       },
     },
   },
