@@ -7,7 +7,7 @@ import Instabutton from '../SocialButtons/Instabutton';
 
 const BigFooter = () => {
   return (
-    <div className='bg-[#263238] w-full h-[300px]  flex justify-around max-sm:flex-col  max-sm:h-[700px] max-sm:items-center   '>
+    <div className='bg-[#263238] w-full h-[300px]  flex justify-around max-sm:flex-col  max-sm:h-[1200px] max-sm:items-center   '>
       <div className="  font-semibold flex mt-10  p-[2%]    ">
         <div>
         <img 
@@ -24,7 +24,7 @@ const BigFooter = () => {
 
          <p className='text-[#F5F7FA] mt-10'>Copyright © 2020 Landify UI Kit.</p>
          <p className='text-[#F5F7FA]'>All rights reserved</p>
-         <div className='flex space-x-1 mt-5 lg:mt-5 md:mt -5'>
+         <div className='flex space-x-1 mt-5 lg:mt-5 md:mt -5 max-sm:mt-10 max-sm:mr-5 max-sm:mt-10'>
          
          <Instabutton   title='facebook button'className='mt-10 '>
          </Instabutton>
@@ -36,16 +36,16 @@ const BigFooter = () => {
 
     <div className='flex  justify-around w-[70%]  max-sm:flex-col  max-sm:items-center '>
 
-    <div className='text-white p-[4%]  max-sm:text-[15px] max-sm:flex-col '>
+    <div className='text-white mt-[5%]  max-sm:text-[15px] max-sm:flex-col max-sm:mb-[30%] '>
         <h1 className='font-bold'>Company</h1>
 
-     <div className='text-white mt-5'>About us</div>
-     <div className='text-white  mt-5'>BLog</div>
-     <div className='text-white mt-5'>Contact us</div>
-     <div className='text-white mt-5'>Pricing</div>
-     <div className='text-white mt-5'>Testimonials</div>
+     <div className='text-white mt-2'>About us</div>
+     <div className='text-white  mt-2'>BLog</div>
+     <div className='text-white mt-2'>Contact us</div>
+     <div className='text-white mt-2'>Pricing</div>
+     <div className='text-white mt-2'>Testimonials</div>
     </div>
-    <div className='text-white p-[4%]   max-sm:text-[15px] max-sm:pb-6 max-sm:ml-6'>
+    <div className='text-white p-[4%]   max-sm:text-[15px] max-sm:pb-6 max-sm:ml-6 max-sm:mb-[50%]'>
         <h1 className='font-bold '>Support</h1>
     <div className='text-white mt-5'>Help center</div>
      <div className='text-white mt-5'>Term  of service</div>
