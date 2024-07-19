@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from'../Icon/Logo.png';
+import Logo from'../Images/Icon (5).svg';
 import{ Navs} from'../Compoments/constants';
 import Button from './Button';
 import Right from'../Icon/Right.png';

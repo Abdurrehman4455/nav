@@ -3,6 +3,7 @@ import Logo from'../Icon/Logo.png';
 import vector from'../Images/Vector.png'
 import images from'../Images/Social Links.png'
 import Instabutton from '../SocialButtons/Instabutton';
+import Logo1 from'../Images/Icon (5).svg';
 
 
 const BigFooter = () => {
@@ -11,7 +12,7 @@ const BigFooter = () => {
   <div className="font-semibold flex mt-10 p-[2%] md:flex-col md:items-center lg:flex-row lg:justify-start lg:items-start">
     <div>
       <img 
-        src={Logo} 
+        src={Logo1} 
         alt="logo" 
         className="w-[40px] max-sm:w-[60px] md:w-[50px] lg:w-[40px]"
       />
