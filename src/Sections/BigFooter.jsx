@@ -8,7 +8,7 @@ import Logo1 from'../Images/Icon (5).svg';
 
 const BigFooter = () => {
   return (
-    <div className='bg-[#263238] w-full h-[300px] flex justify-around max-sm:flex-col max-sm:h-[700px] max-sm:items-center lg:h-[700PX]'>
+    <div className='bg-[#263238] w-full h-[300px] flex justify-around max-sm:flex-col max-sm:h-[700px] max-sm:items-center lg:h-[400PX]'>
     <div className="font-semibold flex mt-10 p-[2%] md:flex-col md:items-center lg:flex-row lg:justify-start lg:items-start">
       <div>
         <img 
