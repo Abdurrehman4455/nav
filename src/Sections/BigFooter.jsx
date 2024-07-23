@@ -54,7 +54,7 @@ const BigFooter = () => {
       </div>
 
       {/* Subscribe Section */}
-      <div className='text-white lg:w-[30%] sm:w-[60%] sm:mb-[20%] md:hidden lg:block'>
+      <div className='text-white lg:w-[30%] sm:w-[60%] sm:mb-[20%] md:hidden  sm:hidden lg:block'>
         <h1 className='font-bold text-lg sm:text-xl text-center'>Stay up to date</h1>
         <div className='relative mt-5 md:hidden sm:hidden lg:block'>
           <span className='absolute top-4 left-1/2 transform -translate-x-1/2 lg:ml-[40%]'>
