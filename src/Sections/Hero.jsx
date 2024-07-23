@@ -1,6 +1,6 @@
 import React from 'react'
 import Dot from'../Images/Dot.png'
-import IL from'../Images//IL.png'
+import IL from'../Images//Illustration.svg'
 import Button2 from '../Compoments/Button2'
 
 
