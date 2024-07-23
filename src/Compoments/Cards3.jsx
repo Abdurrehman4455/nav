@@ -1,6 +1,6 @@
 import React from 'react'
 import imgs from'../Icon/Right.png'
-
+import { FaLongArrowAltRight } from "react-icons/fa";
 const Cards3 = () => {
   return (
     <div className='pt-10 ml-[12%] max-sm:flex-col max-sm:mr-10 max-sm:flex-wrap max-sm:align-stretch max-sm:justify-center max-sm:align-baseline space-x-2 md:mr-[30%]'>
@@ -11,7 +11,7 @@ const Cards3 = () => {
             <p className='text-[#717171] font-bold md:text-[13px] sm:text-[12px]'>Creating Streamlined Safeguarding Processes with OneRen</p>
             <div className='flex ml-10 sm:ml-0 lg:pl-[20%]'>
               <span className='md:text-[14px] sm:text-[12px] hover:text-[red]'><a href='#/'>Readmore</a></span>
-              <img src={imgs} alt='aa' className='ml-3 sm:ml-1 sm:w-[20px]'></img>
+              <FaLongArrowAltRight className='ml-3 sm:ml-1 sm:w-[20px] mt-1.5'/>
             </div>
           </div>
         </div>
@@ -22,7 +22,7 @@ const Cards3 = () => {
             <p className='text-[#717171] font-bold md:text-[13px] sm:text-[12px]'>What are your safeguarding responsibilities and how can you manage them?</p>
             <div className='flex ml-10 sm:ml-0 sm:mr-1 lg:pl-[20%]'>
               <span className='md:text-[14px] sm:text-[12px] hover:text-[red]'><a href='#/'>Readmore</a></span>
-              <img src={imgs} alt='aa' className='ml-3 sm:ml-1 sm:w-[20px]'></img>
+              <FaLongArrowAltRight className='ml-3 sm:ml-1 sm:w-[20px] mt-1.5'/>
             </div>
           </div>
         </div>
@@ -33,7 +33,7 @@ const Cards3 = () => {
             <p className='text-[#717171] font-bold md:text-[13px] sm:text-[12px]'>Revamping the Membership Model with Triathlon Australia</p>
             <div className='flex ml-10 sm:ml-0 lg:pl-[20%]'>
               <span className='md:text-[14px] sm:text-[12px] hover:text-[red]'><a href='#/'>Readmore</a></span>
-              <img src={imgs} alt='aa' className='ml-3 sm:ml-1 sm:w-[20px]'></img>
+              <FaLongArrowAltRight className='ml-3 sm:ml-1 sm:w-[20px] mt-1.5'/>
             </div>
           </div>
         </div>
