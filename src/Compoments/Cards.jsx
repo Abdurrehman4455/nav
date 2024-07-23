@@ -5,7 +5,9 @@ import img1 from'../Icon/Icon (7).png'
 import img2 from'../Icon/Icon.svg'
 import img3 from'../Icon/Icon (1).svg'
 import img4 from'../Icon/Icon (2).svg'
-
+import { VscOrganization } from "react-icons/vsc";
+import { LuBuilding } from "react-icons/lu";
+import { FaRegHandSpock } from "react-icons/fa";
 const Cards = ({content,content2,content3,content4,content5,content6}) => {
   return (
   
@@ -13,7 +15,7 @@ const Cards = ({content,content2,content3,content4,content5,content6}) => {
   <div className="w-[45%] h-[270px] bg-white rounded-lg border border-gray-300 shadow-lg flex justify-center items-center sm:w-[25%] sm:h-[300px] md:w-[30%] md:h-[320px]  lg:h-[350px] max-sm:w-[69%] ">
     <div className="flex flex-col items-center">
       <div>
-        <img src={img2} alt="icon" className="w-14 md:w-16 lg:w-20" /><br />
+        <VscOrganization alt="icon" className="w-14 md:w-16" width={900}/>
       </div>
       <div>
         <h1 className="text-[#4D4D4D] font-bold text-2xl sm:text-xl md:text-2xl lg:text-3xl max-sm:ml-2 lg:ml-2">{content}</h1>
@@ -28,7 +30,7 @@ const Cards = ({content,content2,content3,content4,content5,content6}) => {
   <div className="lg:w-[30%] h-[270px] bg-white rounded-lg border border-gray-300 shadow-lg flex justify-center items-center sm:w-[25%] sm:h-[300px] md:w-[30%] md:h-[320px]  lg:h-[350px] max-sm:w-[69%]">
     <div className="flex flex-col items-center">
       <div>
-        <img src={img3} alt="icon" className="w-14 md:w-16 lg:w-20" /><br />
+        <LuBuilding  alt="icon" className="w-14 md:w-16 lg:w-20" /><br />
       </div>
       <div>
         <h1 className="text-[#4D4D4D] font-bold text-2xl sm:text-xl md:text-2xl lg:text-3xl max-sm:ml-10 lg:ml-10">{content3}</h1>
@@ -43,7 +45,7 @@ const Cards = ({content,content2,content3,content4,content5,content6}) => {
   <div className="w-[60%]  lg:w-[30%]  h-[270px] bg-white rounded-lg border border-gray-300 shadow-lg flex justify-center items-center sm:w-[25%] sm:h-[300px] md:w-[30%] md:h-[320px] lg:w-[18%] lg:h-[350px] max-sm:w-[69%]">
     <div className="flex flex-col items-center">
       <div>
-        <img src={img4} alt="icon" className="w-14 md:w-16 lg:w-20" /><br />
+        <FaRegHandSpock alt="icon" className="w-14 md:w-16 lg:w-20" /><br />
       </div>
       <div>
         <h1 className="text-[#4D4D4D] font-bold text-2xl sm:text-xl md:text-2xl lg:text-3xl lg:ml-5">{content5}</h1>

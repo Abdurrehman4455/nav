@@ -8,6 +8,10 @@ import path1 from'../Images/Path12.svg'
 import path2 from'../Images/Path22.svg'
 import path3 from'../Images/66.svg'
 import { ImPlay } from "react-icons/im";
+import { CiInstagram } from "react-icons/ci";
+import { PiFacebookLogoLight } from "react-icons/pi";
+import { PiTwitterLogoBold } from "react-icons/pi";
+import { CiYoutube } from "react-icons/ci";
 
 const Instabutton = ({icon,name}) => {
 
@@ -27,16 +31,16 @@ const Instabutton = ({icon,name}) => {
   return (
     <div>
        <button className='w-12 h-12 rounded-full bg-[grey]'>
-           <img src={path}  alt='a' className='w-5 ml-3' onClick={handleButtonClick}  ></img>
+           <CiInstagram  className='w-5 ml-3' onClick={handleButtonClick}  />
        </button>
        <button className='w-12 h-12 rounded-full bg-[grey] ml-2' onClick={handleButtonClick2}>
-           <img src={path1} alt='a' className='w-5 ml-3'></img>
+           <PiFacebookLogoLight alt='a' className='w-5 ml-3'/>
        </button>
        <button className='w-12 h-12 rounded-full bg-[grey] ml-2' onClick={handleButtonClick3}>
-           <img src={path2} alt='a'className='w-5 ml-3' ></img>
+           <PiTwitterLogoBold alt='a'className='w-5 ml-3' />
        </button>
        <button className='w-12 h-12 rounded-full bg-[grey] ml-2' onClick={handleButtonClick4}>
-       <img src={path3} alt='a'className='w-5 ml-3' ></img>
+       <CiYoutube alt='a'className='w-5 ml-3'/>
        </button>
     </div>
   )

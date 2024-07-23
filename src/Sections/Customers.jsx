@@ -18,7 +18,8 @@ import Logo6 from'../Images/Right.svg'
 
 const Customers = () => {
   return (
-    <div className="flex justify-center max-sm:flex-col max-sm:mt-20 sm:flex-col sm:mt-10 md:flex-col md:mt-10 items-center lg:flex-row">
+    <div className="flex justify-center max-sm:flex-col max-sm:mt-20 sm:flex-col sm:mt-10 md:flex-col lg:flex md:mt-10 items-center lg:flex-row">
+
     <div className="w-[30%] max-sm:w-[60%] sm:w-[50%] md:w-[50%] lg:w-[30%] lg:mb-[22%]">
       <img src={Image} alt="frame" width={500} />
     </div>
@@ -30,8 +31,8 @@ const Customers = () => {
         <h1 className="font-bold text-[#4CAF4F] text-[25px] max-sm:text-left sm:text-center md:text-center">Tim Smith</h1>
         <p className="text-[#89939E] max-sm:text-left sm:text-center md:text-center">British Dragon Boat Racing Association</p>
         <div className="pt-4 sm:pt-2 md:pt-2 lg:flex">
-          <div className="flex justify-between w-[70%] max-sm:flex sm:flex-wrap sm:justify-center sm:w-full md:flex-col md:w-full md:items-center max-sm:mt-3 lg:flex">
-            <div className="flex justify-center mb-4 sm:w-[30%] md:w-full">
+          <div className="flex justify-between w-[70%] max-sm:flex sm:flex-wrap sm:justify-center sm:w-full md:flex-col lg:flex md:w-full md:items-center max-sm:mt-3">
+            <div className=" lg:flex justify-center mb-4 sm:w-[30%] md:w-full">
               <img src={Logo} alt="log" className="sm:w-[40px] sm:h-[40px] md:w-[40px] md:h-[40px]" />
             </div>
             <div className="flex justify-center mb-4 sm:w-[30%] md:w-full">
