@@ -19,7 +19,7 @@ const Nav = () => {
     
   return ( 
     <div className="w-full bg-[#FFFFFF] flex flex-wrap justify-between items-center ml-10 p-1 sm:flex-nowrap sm:ml-0 sm:mt-0  max-sm:ml-0 md:flex-nowrap md:ml-0 xl:flex-nowrap xl:ml-0 xl:mt-0">
-    <div className="w-[40%] max-sm:w-[20%] flex items-center font-semibold sm:pl-[10%] max-sm:h-[30px] max-sm:mt-5  max-sm:ml-2 md:ml-0 md:mt-10  xl:mt-0 xl:ml-0  ml-[30%] sm:mr-10">
+    <div className="w-[40%] max-sm:w-[20%] flex items-center font-semibold sm:pl-[10%] max-sm:h-[30px] max-sm:mt-5  max-sm:ml-2 md:ml-0 md:mt-10  xl:mt-0 xl:ml-0 ">
       <img 
         src={Logo} 
         alt="logo" 
