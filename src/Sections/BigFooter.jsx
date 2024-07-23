@@ -5,6 +5,7 @@ import images from'../Images/Social Links.png'
 import Instabutton from '../SocialButtons/Instabutton';
 import Logo1 from'../Images/Icon (5).svg';
 import { CiInstagram } from "react-icons/ci";
+import { GrFormNext } from "react-icons/gr"
 
 const BigFooter = () => {
   return (
@@ -57,7 +58,7 @@ const BigFooter = () => {
         <h1 className='font-bold text-lg sm:text-xl text-center'>Stay up to date</h1>
         <div className='relative mt-5 md:hidden sm:hidden lg:block'>
           <span className='absolute top-4 left-1/2 transform -translate-x-1/2 lg:ml-[40%]'>
-            <img src={vector} alt='vector graphic' />
+            <GrFormNext alt='vector graphic' />
           </span>
           <input className='text-white rounded-lg h-[50px] w-full sm:w-[210px] bg-[grey] pl-3 lg:w-[100%]' type='text' placeholder='Enter your email address' />
         </div>
