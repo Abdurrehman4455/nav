@@ -4,14 +4,14 @@ import vector from'../Images/Vector.png'
 import images from'../Images/Social Links.png'
 import Instabutton from '../SocialButtons/Instabutton';
 import Logo1 from'../Images/Icon (5).svg';
-
+import { CiInstagram } from "react-icons/ci";
 
 const BigFooter = () => {
   return (
     <div className='bg-[#263238] w-full h-auto flex flex-col lg:flex-row lg:h-[400px] max-sm:h-[700px] items-center lg:justify-around p-6 lg:p-10'>
       
     {/* Logo and Info Section */}
-    <div className='flex flex-col lg:flex-row lg:items-start lg:justify-start w-full lg:w-[30%] text-center lg:text-left'>
+    <div className='flex flex-col lg:flex-row lg:items-start lg:justify-start w-full lg:w-[30%] text-center lg:text-left lg:mt-0 lg:mb-[10%]'>
       <div className='flex justify-center lg:justify-start'>
         <img 
           src={Logo1} 
