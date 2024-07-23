@@ -8,48 +8,58 @@ import Logo1 from'../Images/Icon (5).svg';
 
 const BigFooter = () => {
   return (
-    <div className='bg-[#263238] w-full h-[300px] flex justify-around max-sm:flex-col max-sm:h-[700px] max-sm:items-center lg:h-[400PX]'>
-    <div className="font-semibold flex mt-10 p-[2%] md:flex-col md:items-center lg:flex-row lg:justify-start lg:items-start">
-      <div>
+    <div className='bg-[#263238] w-full h-auto flex flex-col lg:flex-row lg:h-[400px] max-sm:h-[700px] items-center lg:justify-around p-6 lg:p-10'>
+      
+    {/* Logo and Info Section */}
+    <div className='flex flex-col lg:flex-row lg:items-start lg:justify-start w-full lg:w-[30%] text-center lg:text-left'>
+      <div className='flex justify-center lg:justify-start'>
         <img 
           src={Logo1} 
           alt="logo" 
-          className="w-[40px] max-sm:w-[60px] sm:w-[50px] md:w-[50px] lg:w-[40px]"
+          className="w-[60px] sm:w-[50px] md:w-[50px] lg:w-[40px]"
         />
       </div>
-      <div className='text-center lg:text-left md:ml-4 sm:ml-4'>
-        <h1 className='ml-2 font-bold text-lg sm:text-2xl leading-9 text-[white]'>Next Cent</h1>
-        <p className='text-[#F5F7FA] mt-10 sm:mt-5'>Copyright © 2020 Landify UI Kit.</p>
+      <div className='mt-4 lg:mt-0 lg:ml-4'>
+        <h1 className='font-bold text-lg sm:text-2xl text-white'>Next Cent</h1>
+        <p className='text-[#F5F7FA] mt-5 sm:mt-2'>Copyright © 2020 Landify UI Kit.</p>
         <p className='text-[#F5F7FA]'>All rights reserved</p>
-        <div className='flex space-x-1 mt-5 lg:mt-5 md:mt-10 max-sm:mr-5'>
-          <Instabutton title='facebook button' className='mt-10' />
+        <div className='flex justify-center lg:justify-start mt-5'>
+          <Instabutton title='facebook button' className='mt-2' />
         </div>
       </div>
-    </div> 
-    <div className='flex justify-around w-[70%] max-sm:flex-col max-sm:items-center md:flex-row md:justify-center md:w-full lg:w-[70%] max-sm:mb-[50%] sm:mb-[20%]'>
-      <div className='text-white lg:mt-[5%] max-sm:text-[15px] max-sm:flex-col max-sm:mb-[] sm:mt-5 md:mt-5 md:w-[30%]'>
-        <h1 className='font-bold'>Company</h1>
-        <div className='text-white mt-2'>About us</div>
-        <div className='text-white mt-2'>Blog</div>
-        <div className='text-white mt-2'>Contact us</div>
-        <div className='text-white mt-2'>Pricing</div>
-        <div className='text-white mt-2'>Testimonials</div>
+    </div>
+
+    {/* Links Section */}
+    <div className='flex flex-col lg:flex-row lg:w-[70%] w-full mt-6 lg:mt-0 lg:justify-around'>
+      
+      {/* Company Links */}
+      <div className='text-white lg:w-[30%] sm:text-[15px] mb-6 lg:mb-0'>
+        <h1 className='font-bold text-lg sm:text-xl'>Company</h1>
+        <div className='mt-2'>About us</div>
+        <div className='mt-2'>Blog</div>
+        <div className='mt-2'>Contact us</div>
+        <div className='mt-2'>Pricing</div>
+        <div className='mt-2'>Testimonials</div>
       </div>
-      <div className='text-white p-[4%] max-sm:text-[15px] max-sm:pb-6 max-sm:ml-6 max-sm:mb-[30%] sm:mb-[10%] md:mt-0 md:w-[30%]'>
-        <h1 className='font-bold'>Support</h1>
-        <div className='text-white mt-5'>Help center</div>
-        <div className='text-white mt-5'>Term of service</div>
-        <div className='text-white mt-5'>Legal</div>
-        <div className='text-white mt-5'>Privacy policy</div>
-        <div className='text-white mt-5'>Status</div>
+
+      {/* Support Links */}
+      <div className='text-white lg:w-[30%] sm:text-[15px] mb-6 lg:mb-0'>
+        <h1 className='font-bold text-lg sm:text-xl'>Support</h1>
+        <div className='mt-5'>Help center</div>
+        <div className='mt-5'>Terms of service</div>
+        <div className='mt-5'>Legal</div>
+        <div className='mt-5'>Privacy policy</div>
+        <div className='mt-5'>Status</div>
       </div>
-      <div className='text-white p-[4%] max-sm:text-[16px] max-sm:ml-10 md:mt-0 md:w-[30%] sm:w-[60%] sm:mb-[20%] md:hidden lg:block max-sm:hidden'>
-        <h1 className='font-bold max-sm:text-center'>Stay up to date</h1>
-        <div className='w-full lg:mt-5 relative md:w-[150px]'>
-          <span className='absolute mt-4 w-[140px] ml-[10%]'>
-            <img src={vector} alt='a' className='ml-[150%]' />
+
+      {/* Subscribe Section */}
+      <div className='text-white lg:w-[30%] sm:w-[60%] sm:mb-[20%] md:hidden lg:block'>
+        <h1 className='font-bold text-lg sm:text-xl text-center'>Stay up to date</h1>
+        <div className='relative mt-5 md:hidden sm:hidden'>
+          <span className='absolute top-4 left-1/2 transform -translate-x-1/2'>
+            <img src={vector} alt='vector graphic' />
           </span>
-          <input className='mr-[10%] text-[white] rounded-lg h-[50px] w-[300px] bg-[grey] max-sm:w-[210px] sm:w-[260px] md:w-auto lg:w-[250PX]' type='text' placeholder='  Enter your email address' />
+          <input className='text-white rounded-lg h-[50px] w-full sm:w-[210px] bg-[grey] pl-3' type='text' placeholder='Enter your email address' />
         </div>
       </div>
     </div>
