@@ -12,13 +12,14 @@ import Customer from'./Sections/Customers';
 import CommunityUpdate from './Sections/CommunityUpdate';
 import Footer from './Sections/Footer';
 import BigFooter from './Sections/BigFooter';
+import Slider from 'react-slick/lib/slider';
 
 function App() {
   return (
     <div className ="overflow-hidden">
       <Nav className=''/>
-      <section className='mt-0'>
-      <Sliders />
+      <section className='mt-0 lg:w-full'>
+        <Hero/>
       </section>
       
        <Clients/>

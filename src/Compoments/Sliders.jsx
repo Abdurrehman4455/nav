@@ -26,10 +26,10 @@ const Sliders = () => {
           <Hero />
         </div>
         <div>
-          <Hero />
+         
         </div>
         <div>
-          <Hero />
+         
         </div>
       </Slider>
     
