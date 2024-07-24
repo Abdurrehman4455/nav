@@ -4,7 +4,7 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 const Cards3 = () => {
   return (
     <div className=' flex ml-[5%] mt-5 justify-center p-10 space-x-2 max-sm:ml-0  max-sm:flex-col max-sm:items-center max-sm:space-y-3 '>
-      <div className='  bg-card-bg  h-[400px] bg-no-repeat bg-contain max-sm:bg-cover'>
+      <div className='  bg-card-bg   bg-no-repeat bg-contain max-sm:bg-cover'>
           
             <div className='p-[10px] mt-[50%] ml-0 flex justify-center w-[100%] bg-[white] mt-[30%] rounded-lg  shadow-lg shadow-grey border-[6px] border-grey-500 mr-[30%]'>
              
