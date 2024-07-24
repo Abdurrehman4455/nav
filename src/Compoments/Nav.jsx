@@ -30,10 +30,10 @@ const Nav = () => {
     </div>
 
   
-    <div className="w-[50%] max-sm:w-[50%] flex max-sm:flex-row max-sm:items-center mt-2 sm:mt-0 max-sm:overflow-hidden md:justify-end md:mr-4 pr-11 lg:mr-4 max-sm:justify-end sm:justify-end sm:mt-7 lg:mt-0 lg:mr-[10%] xl:mr-[5%] xl:justify-between xl:mt-0">
-      <div className="md:block lg:hidden max-sm:block max-md:hidden sm:block md:mt-10 lg:mt-0 max-sm:mt-5 max-sm:ml-[13px] sm:justify-end xl:hidden">
+    <div className="w-[50%] max-sm:w-[50%] flex max-sm:flex-row max-sm:items-center mt-2 sm:mt-0 max-sm:overflow-hidden md:justify-end   lg:mr-4 max-sm:justify-end sm:justify-end sm:mt-7 lg:mt-0 lg:mr-[10%] xl:mr-[5%] xl:justify-between xl:mt-0">
+      <div className="md:block lg:hidden max-sm:block max-md:hidden sm:block md:mt-10 lg:mt-0 max-sm:mt-5 max-sm:ml-[13px] sm:justify-end xl:hidden md:ml-10">
         <button onClick={toggleDropdown} className="text-lg font-semibold flex items-center">
-          <div className="space-y-2 ">
+          <div className="space-y-2 md:bg-red-500 ">
             <span className="block w-8 h-0.5 bg-black"></span>
             <span className="block w-8 h-0.5 bg-black"></span>
             <span className="block w-8 h-0.5 bg-black"></span>
