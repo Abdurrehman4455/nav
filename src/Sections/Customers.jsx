@@ -32,14 +32,14 @@ const Customers = () => {
 
 
         <div className=''>
-      <div>
+      <div className='ml-4'>
       <h1 className="font-bold text-[#4CAF4F] text-[25px] max-sm:text-left sm:text-center md:text-center lg:text-left ">Tim Smith</h1><br/>
       </div>
-      <div className='mb-3'>
+      <div className='mb-3 ml-3'>
       <p className="text-[#89939E] max-sm:text-left sm:text-center md:text-center lg:text-left">British Dragon Boat Racing Association</p>
       </div>
 
-      <div className='flex md:justify-center lg:justify-start space-x-2 sm:justify-center'>
+      <div className='flex md:justify-center lg:justify-start space-x-2 sm:justify-center ml-3'>
        <img src={Logo} alt="" /><img src={Logo1} alt="" /><img src={Logo2} alt="" /><img src={Logo3}alt="" /><img src={Logo4}alt="" /><img src={Logo5} alt="" />
        <div className='flex'>
        <p className='text-[#4CAF4F] ml-2 flex'> Meet all customers <FaArrowRightLong className='ml-3 mt-2'></FaArrowRightLong></p>
