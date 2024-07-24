@@ -32,9 +32,7 @@ const Hero = () => {
         <img src={IL} alt="" className="mb-[10%]" />
       </div>
     </div>
-    <div className=' sm:w-[80%] md:w-[60%] lg:w-[50%] sm:pl-0 md:pl-[26%] lg:pl-[10%] mt-[2%] sm:pt-[20%] items-center'>
-      <img src={Dot} alt='dot' width={30} />
-    </div>
+  
   </div>
   
   

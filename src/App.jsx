@@ -51,7 +51,7 @@ function App() {
        </section>
 
 
-       <section className='pt-[10%]'> 
+       <section className='pt-[5%]'> 
         <Footer/>
        </section>
        <section>
