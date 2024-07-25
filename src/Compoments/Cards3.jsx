@@ -7,7 +7,7 @@ const Cards3 = () => {
     <div className='flex justify-center space-x-3 max-sm:flex-col max-sm:items-center md:space-x-5 lg:space-x-10 pt-5 md:pt-2'>
   <div className='bg-card-bg w-64 h-64 bg-no-repeat flex items-center justify-center max-sm:mb-10'>
     <div className='w-[90%] bg-[white] rounded-lg border-grey border-[2px] p-5 mt-[60%]'>
-      <p>Creating Streamlined Safeguarding Processes with OneRen</p>
+      <p className='text-[#717171]'>Creating Streamlined Safeguarding Processes with OneRen</p>
       <div className='flex justify-center'>
         <a  href='/#'className='text-green-500'><p>Readme more</p></a>
         <div className='text-green-400 ml-2 mt-1'><FaLongArrowAltRight/></div>
@@ -16,7 +16,7 @@ const Cards3 = () => {
   </div>
   <div className='bg-cards-bg w-64 h-64 bg-no-repeat flex items-center justify-center max-sm:mb-10'>
     <div className='w-[90%] bg-[white] rounded-lg border-grey border-[2px] p-5 mt-[60%]'>
-      <p>Creating Streamlined Safeguarding Processes with OneRen</p>
+      <p className='text-[#717171]'>What are your safeguarding responsibilities and how can you manage them?</p>
       <div className='flex justify-center'>
         <a className='text-green-500'><p>Readme more</p></a>
         <div className='text-green-400 ml-2 mt-1'><FaLongArrowAltRight/></div>
@@ -25,7 +25,7 @@ const Cards3 = () => {
   </div>
   <div className='bg-cards-bg1 w-64 h-64 bg-no-repeat flex items-center justify-center max-sm:mb-10'>
     <div className='w-[90%] bg-[white] rounded-lg border-grey border-[2px] p-5 mt-[60%]'>
-      <p>Creating Streamlined Safeguarding Processes with OneRen</p>
+      <p className='text-[#717171]'>Revamping the Membership Model with Triathlon Australia</p>
       <div className='flex justify-center'>
         <a className='text-green-500'><p>Readme more</p></a>
         <div className='text-green-400 ml-2 mt-1'><FaLongArrowAltRight/></div>
