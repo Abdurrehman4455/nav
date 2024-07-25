@@ -9,7 +9,7 @@ const Cards3 = () => {
     <div className='w-[90%] bg-[white] rounded-lg border-grey border-[2px] p-5 mt-[60%]'>
       <p>Creating Streamlined Safeguarding Processes with OneRen</p>
       <div className='flex justify-center'>
-        <a className='text-green-500'><p>Readme more</p></a>
+        <a  href='/#'className='text-green-500'><p>Readme more</p></a>
         <div className='text-green-400 ml-2 mt-1'><FaLongArrowAltRight/></div>
       </div>
     </div>

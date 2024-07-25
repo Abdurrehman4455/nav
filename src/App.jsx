@@ -17,33 +17,35 @@ import Slider from 'react-slick/lib/slider';
 function App() {
   return (
     <div className ="overflow-hidden">
-      <Nav className=''/>
-      <section className='mt-0 lg:w-full'>
+      <section className='font-serif'>
+      <Nav className=' font-serif'/>
+      </section>
+      <section className='mt-0 lg:w-full font-serif'>
         <Hero/>
       </section>
       
        <Clients/>
-       <section className='pt-[5%]'>
+       <section className='pt-[5%] font-serif'>
        <Community/>
        </section>
 
-       <section className='pt-[10%]'>
+       <section className='pt-[10%] font-serif'>
         <Unlock/>
        </section>
 
-       <section className='pt-14'>
+       <section className='pt-14 font-serif'>
         <Acheivements/>
        </section>
 
-       <section className='pt-[10%]'>
+       <section className='pt-[10%] font-serif'>
        <Calander/>
        </section>
 
-       <section className='pt-[10%]'>
+       <section className='pt-[10%] font-serif'>
         <Customer/>
        </section>
 
-       <section  className='pt-[1%]'>
+       <section  className='pt-[1%] font-serif'>
       <CommunityUpdate/>
 
 
@@ -52,10 +54,10 @@ function App() {
 
 
        <section className=''> 
-        <Footer className='pt-[35%]'/>
+        <Footer className='pt-[35%] font-serif'/>
        </section>
        <section>
-        <BigFooter/>
+        <BigFooter className='font-serif'/>
        </section>
       
        

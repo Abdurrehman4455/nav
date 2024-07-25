@@ -11,6 +11,9 @@ module.exports = {
         'cards-bg':"url('/src/Images/image 19 (3).svg')",
         'cards-bg1':"url('/src/Images/image 20.svg')"
       },
+      fontFamily: {
+        serif: ['Merriweather', 'serif'],
+      },
     },
   },
   plugins: [],
