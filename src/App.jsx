@@ -20,7 +20,7 @@ function App() {
       <section className='font-serif'>
       <Nav className=' font-serif'/>
       </section>
-      <section className='mt-0 lg:w-full font-serif'>
+      <section className='mt-0 lg:w-full '>
         <Hero/>
       </section>
       

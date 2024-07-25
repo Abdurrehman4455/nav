@@ -12,7 +12,7 @@ module.exports = {
         'cards-bg1':"url('/src/Images/image 20.svg')"
       },
       fontFamily: {
-        serif: ['Merriweather', 'serif'],
+        serif: ['sans-serif'],
       },
     },
   },
