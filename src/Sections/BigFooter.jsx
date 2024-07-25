@@ -31,7 +31,7 @@ const BigFooter = () => {
     </div>
 
     {/* Links Section */}
-    <div className='flex flex-col lg:flex-row lg:w-[70%] w-full mt-6 lg:mt-0 lg:justify-around'>
+    <div className='flex flex-col lg:flex-row lg:w-[70%] w-full mt-6 lg:mt-0 lg:justify-around max-sm:items-center md:items-center lg:items-start'>
       
       {/* Company Links */}
       <div className='text-white lg:w-[30%] sm:text-[15px] mb-6 lg:mb-0'>
@@ -44,7 +44,7 @@ const BigFooter = () => {
       </div>
 
       {/* Support Links */}
-      <div className='text-white lg:w-[30%] sm:text-[15px] mb-6 lg:mb-0'>
+      <div className='text-white lg:w-[30%] sm:text-[15px] mb-6 lg:mb-0 max-sm:ml-5'>
         <h1 className='font-bold text-lg sm:text-xl'>Support</h1>
         <div className='mt-5'>Help center</div>
         <div className='mt-5'>Terms of service</div>

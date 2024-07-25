@@ -3,68 +3,48 @@ import imgs from'../Icon/Right.png'
 import { FaLongArrowAltRight } from "react-icons/fa";
 const Cards3 = () => {
   return (
-    <div className=' flex ml-[5%] mt-5 justify-center p-10 space-x-2 max-sm:ml-0  max-sm:flex-col max-sm:items-center max-sm:space-y-3 '>
-      <div className='  bg-card-bg   bg-no-repeat bg-contain max-sm:bg-cover'>
-          
-            <div className='p-[10px] mt-[50%] ml-0 flex justify-center w-[100%] bg-[white] mt-[30%] rounded-lg  shadow-lg shadow-grey border-[6px] border-grey-500 mr-[30%]'>
-             
-             <div className='flex-col'>
-            <div>
-                   
-            <p className='text-[#717171] p-6'>What are your safeguarding responsibilities and how can you manage them?</p>
+    <div className=' flex  space-x-1 p-[200px] max-sm:p-5 max-sm:flex-col md:justify-center sm:justify-center sm:flex'>
+      <div className='  bg-card-bg   bg-no-repeat bg-contain  flex justify-center'>
+         <div className='flex flex-col justify-center mt-[170px] w-[80%]  h-[60%]  bg-[white] items-center rounded-lg border-2 border-[grey] md:mt-[110px]  md:p-6 lg:mt-[160px] max-sm:mb-10 '>
 
-            </div>
+             <p className='p-10'>What are your safeguarding responsibilities and how can you manage them?</p>
+             <div className='flex'>
+             <a href='/#'><span className='text-green-500'>Readmore </span></a>
+             <span className='text-green-500 mt-1'><FaLongArrowAltRight/></span>
+             </div>
+           
+         </div>
+      </div>
+      <div className='  bg-cards-bg   bg-no-repeat bg-contain  flex justify-center'>
+         <div className='flex flex-col justify-center mt-[170px] w-[80%]  h-[60%]  bg-[white] items-center rounded-lg border-2 border-[grey] md:p-6 lg:mt-[160px] md:mt-[110px] max-sm:mb-10 '>
 
-            <div className='justify-center flex'>
-                <a href='/#'><span className='text-[Green]'>Readmore</span></a>
-                <div className='text-[Green] ml-2 mt-1'><FaLongArrowAltRight/></div>
-               </div>
-               </div>
-               
-               
-      
-            </div>
-          
+         <p className='p-10'>What are your safeguarding responsibilities and how can you manage them?</p>
+         <div className='flex'>
+             <a href='/#'><span className='text-green-500'>Readmore </span></a>
+             <span className='text-green-500 mt-1'><FaLongArrowAltRight/></span>
+             </div>
+           
+         </div>
       </div>
-  
-      <div className=' p-[10px] bg-cards-bg  h-[400px] bg-no-repeat bg-contain'>
-      <div className=' p-[10px]  mt-[50%]  flex justify-center w-[100%] bg-[white] mt-[30%] rounded-lg  shadow-lg shadow-grey border-[6px] border-grey-500'>
-      <div className='flex-col'>
-            <div>
-                   
-            <p className='text-[#717171] p-6 '>What are your safeguarding responsibilities and how can you manage them?</p>
+      <div className='  bg-cards-bg1   bg-no-repeat bg-contain  flex justify-center'>
+         <div className='flex flex-col justify-center mt-[170px] w-[80%]  h-[60%]  bg-[white] items-center rounded-lg border-2 border-[grey] md:p-6 lg:mt-[160px] md:mt-[110px]'>
 
-            </div>
-               
-               <div className='text-center flex justify-center'>
-                <a href='/#'><span className=' text-[Green]'>Readmore </span></a>
-                <div className='text-[green] ml-2 mt-1'><FaLongArrowAltRight/></div>
-               </div>
-               </div>
-      </div>  
-        
+         <p className='p-10'>What are your safeguarding responsibilities and how can you manage them?</p>
+             <div className='flex'>
+             <a href='/#'><span className='text-green-500'>Readmore </span></a>
+             <span className='text-green-500 mt-1'><FaLongArrowAltRight/></span>
+             </div>
+           
+         </div>
       </div>
-      <div className='p-[10px] bg-cards-bg1 h-[400px] bg-no-repeat bg-contain'>
-      <div className='p-[10px]  mt-[50%]  flex justify-center w-[100%] bg-[white] mt-[30%] rounded-lg  shadow-lg shadow-grey border-[6px] border-grey-500'>
-      <div className=''>
-            <div>
-                   
-            <p className='text-[#717171] p-6'>What are your safeguarding responsibilities and how can you manage them?</p>
-            
-            </div>
-            <div className='text-center flex justify-center'>
-                <a href='/#'><span className=' text-[Green]'>Readmore </span></a>
-                <div className='text-[green] ml-2 mt-1'><FaLongArrowAltRight/></div>
-               </div>
-          
-            
-              
+      {/* <div className='  bg-cards-bg   bg-no-repeat bg-cover w-[20%] h-64'>
+        a
+      </div> */}
+
+      {/* <div className='  bg-cards-bg1   bg-no-repeat bg-cover w-[20%] h-64'>
+        a
+      </div> */}
       </div>
-      </div>  
-        
-      </div>
-    </div>
-  
   )
 } 
 

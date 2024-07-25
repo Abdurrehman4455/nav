@@ -6,7 +6,10 @@ const CommunityUpdate = () => {
     <div>
   <div className='flex flex-col items-center space-x-2 max-sm:space-x-0 max-sm:space-y-4'>
     <div>
-      <h1 className='text-center text-[#4D4D4D] font-semibold text-[30px] mt-4 max-sm:text-[25px]'>Caring is the new marketing</h1>
+    <h1 class="text-center text-[#4D4D4D] font-semibold text-[30px] mt-4 sm:text-[25px] sm:p-2">
+  Caring is the new marketing
+</h1>
+
     </div>
     <div className='text-center'>
       <p className='text-[#717171] max-sm:text-sm max-sm:px-4'>
@@ -16,7 +19,7 @@ const CommunityUpdate = () => {
       </p>
     </div>
   </div>
-  <section className='pt-[1%] max-sm:pt-[5%]'>
+  <section className='max-sm:pt-[5%]'>
     <Cards3 />
   </section>
 </div>

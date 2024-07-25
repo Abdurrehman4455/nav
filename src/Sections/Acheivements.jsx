@@ -18,7 +18,7 @@ const Acheivements = () => {
     <p className='text-[#18191] text-[19px] mt-2 max-sm:text-[15px] sm:text-[16px] sm:mt-2 md:text-[17px] lg:text-[19px]'>We reached here with our hard work and dedication</p>
   </div>
 
-  <div className="w-[60%] max-sm:mt-10 max-sm:items-center sm:w-[80%] sm:mt-10 md:w-[80%] md:mt-10 lg:w-[60%] lg:mt-0">
+  <div className="w-[60%] max-sm:mt-10 max-sm:items-center sm:w-[80%] sm:mt-10 md:w-[80%] md:mt-10 lg:w-[60%] lg:mt-10 max-sm:items-start">
     <div className="flex flex-wrap justify-between max-sm:flex-col sm:flex-row sm:justify-between md:flex-col md:items-center lg:flex-row">
       <div className="flex w-[70%] justify-between mb-4 sm:w-full sm:justify-center sm:mb-4 md:w-full md:justify-center lg:w-[70%] lg:justify-between">
         <img src={icon} alt="a" className="w-[300px] sm:w-[45%] sm:mb-4 md:w-[45%] lg:w-[300px] mb-4 md:mb-0 lg:mb-4"/>
