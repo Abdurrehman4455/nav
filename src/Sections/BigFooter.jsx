@@ -21,7 +21,7 @@ const BigFooter = () => {
         />
       </div>
       <div className='mt-4 lg:mt-0 lg:ml-4 mt-4'>
-        <h1 className='font-bold text-lg sm:text-2xl text-white mt-[30%]'>Next Cent</h1>
+        <h1 className='font-bold text-lg sm:text-2xl text-white lg:mt-[30%] md:mt-0 '>Next Cent</h1>
         <p className='text-[#F5F7FA] mt-5 sm:mt-2 lg:mt-[30%]'>Copyright © 2020 Landify UI Kit.</p>
         <p className='text-[#F5F7FA]'>All rights reserved</p>
         <div className='flex justify-center lg:justify-start mt-[30%]'>
@@ -34,7 +34,7 @@ const BigFooter = () => {
     <div className='flex flex-col lg:flex-row lg:w-[70%] w-full mt-6 lg:mt-0 lg:justify-around max-sm:items-center md:items-center lg:items-start'>
       
       {/* Company Links */}
-      <div className='text-white lg:w-[30%] sm:text-[15px] mb-6 lg:mb-0'>
+      <div className='text-white lg:w-[30%] sm:text-[15px] mb-6 lg:mb-0 max-sm:mt-10 md:mt-10 lg:mt-0'>
         <h1 className='font-bold text-lg sm:text-xl'>Company</h1>
         <div className='mt-2'>About us</div>
         <div className='mt-2'>Blog</div>
@@ -55,8 +55,8 @@ const BigFooter = () => {
 
       {/* Subscribe Section */}
       <div className='text-white lg:w-[30%] sm:w-[60%] sm:mb-[20%] md:hidden  sm:hidden lg:block'>
-        <h1 className='font-bold text-lg sm:text-xl text-center'>Stay up to date</h1>
-        <div className='relative mt-5 md:hidden sm:hidden lg:block'>
+        <h1 className='font-bold text-lg sm:text-xl text-center max-sm:hidden'>Stay up to date</h1>
+        <div className='relative mt-5 md:hidden sm:hidden max-sm:hidden lg:block'>
           <span className='absolute top-4 left-1/2 transform -translate-x-1/2 lg:ml-[40%]'>
             <GrFormNext alt='vector graphic' />
           </span>
