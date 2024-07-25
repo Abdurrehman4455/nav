@@ -10,7 +10,7 @@ const Cards3 = () => {
       <p>Creating Streamlined Safeguarding Processes with OneRen</p>
       <div className='flex justify-center'>
         <a className='text-green-500'><p>Readme more</p></a>
-        <div className='text-green-400 ml-2 mt-'><FaLongArrowAltRight/></div>
+        <div className='text-green-400 ml-2 mt-1'><FaLongArrowAltRight/></div>
       </div>
     </div>
   </div>
