@@ -31,7 +31,7 @@ const Customers = () => {
         </p>
 
 
-        <div className='max-sm:flex-col'>
+        <div className='max-sm:flex-col max-sm:justify-center'>
       <div className='ml-4'>
       <h1 className="font-bold text-[#4CAF4F] text-[25px] max-sm:text-left sm:text-center md:text-center lg:text-left ">Tim Smith</h1><br/>
       </div>

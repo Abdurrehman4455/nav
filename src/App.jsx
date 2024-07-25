@@ -43,7 +43,7 @@ function App() {
         <Customer/>
        </section>
 
-       <section  className='pt-[4%]'>
+       <section  className='pt-[1%]'>
       <CommunityUpdate/>
 
 
@@ -52,7 +52,7 @@ function App() {
 
 
        <section className=''> 
-        <Footer/>
+        <Footer className='pt-[35%]'/>
        </section>
        <section>
         <BigFooter/>

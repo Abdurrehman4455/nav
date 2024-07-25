@@ -21,7 +21,7 @@ const Clients = () => {
     <div>
     <div className=''>
       <h1 className='text-center text-[#4D4D4D] font-semibold text-[50px] mt-4 max-sm:text-[20px] md:text-[40px] md:mt-6'>Our Clients</h1>
-      <p className='text-[#717171] text-center text-[19px] mt-2 max-sm:text-[15px] md:text-[18px] md:mt-4'>We have been working with some Fortune 500+ clients</p>
+      <p className='text-[#717171] text-center text-[19px] mt-2 max-sm:text-[15px] md:text-[18px] md:mt-4 max-sm:p-10'>We have been working with some Fortune 500+ clients</p>
   
       <div className='pt-10 flex pl-[10px] w-full justify-around max-sm:flex max-sm:items-center md:pl-0 md:justify-between md:pt-8 md:ml-2 lg:ml-[5%]'>
         <div className='md:w-[12%]'>
