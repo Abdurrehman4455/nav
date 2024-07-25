@@ -23,8 +23,9 @@ function App() {
       <section className='mt-0 lg:w-full font-serif '>
         <Hero/>
       </section>
-      
+      <section className='font-serif'>
        <Clients/>
+       </section>
        <section className='pt-[5%] font-serif'>
        <Community/>
        </section>
