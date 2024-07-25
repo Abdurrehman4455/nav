@@ -39,8 +39,8 @@ const Instabutton = ({icon,name}) => {
        <button className='w-12 h-12 rounded-full bg-[grey] ml-2' onClick={handleButtonClick3}>
            <PiTwitterLogoBold alt='a'className='w-12 h-8' />
        </button>
-       <button className='w-12 h-12 rounded-full bg-[grey] ml-2' onClick={handleButtonClick4}>
-       <CiYoutube alt='a'className='w-5 ml-3'/>
+       <button className='w-12 h-12 rounded-full bg-[grey] ml-2 ' onClick={handleButtonClick4}>
+       <CiYoutube alt='a'className='w-12 h-10'/>
        </button>
     </div>
   )
