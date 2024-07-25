@@ -19,7 +19,7 @@ const CommunityUpdate = () => {
       </p>
     </div>
   </div>
-  <section className='max-sm:pt-[5%]'>
+  <section className='max-sm:pt-[5%] font-serif'>
     <Cards3 />
   </section>
 </div>

@@ -31,13 +31,13 @@ const Instabutton = ({icon,name}) => {
   return (
     <div>
        <button className='w-12 h-12 rounded-full bg-[grey]'>
-           <CiInstagram  className='w-5 ml-3' onClick={handleButtonClick}  />
+           <CiInstagram  className='w-12 h-10 ml-0' onClick={handleButtonClick}  />
        </button>
        <button className='w-12 h-12 rounded-full bg-[grey] ml-2' onClick={handleButtonClick2}>
-           <PiFacebookLogoLight alt='a' className='w-5 ml-3'/>
+           <PiFacebookLogoLight alt='a' className=' w-12 h-10 ml-0'/>
        </button>
        <button className='w-12 h-12 rounded-full bg-[grey] ml-2' onClick={handleButtonClick3}>
-           <PiTwitterLogoBold alt='a'className='w-5 ml-3' />
+           <PiTwitterLogoBold alt='a'className='w-12 h-8' />
        </button>
        <button className='w-12 h-12 rounded-full bg-[grey] ml-2' onClick={handleButtonClick4}>
        <CiYoutube alt='a'className='w-5 ml-3'/>
