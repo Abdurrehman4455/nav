@@ -15,7 +15,7 @@ const Cards = ({content,content2,content3,content4,content5,content6}) => {
   <div className="w-[45%] h-[270px] bg-white rounded-lg border border-gray-300 shadow-lg flex justify-center items-center sm:w-[25%] sm:h-[300px] md:w-[30%] md:h-[320px]  lg:h-[350px] max-sm:w-[69%] p-[4%] ">
     <div className="flex flex-col items-center">
       <div className='mb-6'>
-        <VscOrganization alt="icon" className="w-14 md:w-16" width={900}/>
+        <VscOrganization size='2rem'/>
       </div>
       <div>
         <h1 className="text-[#4D4D4D] font-bold text-2xl sm:text-xl md:text-2xl lg:text-3xl max-sm:ml-2 lg:ml-2">{content}</h1>
@@ -30,7 +30,7 @@ const Cards = ({content,content2,content3,content4,content5,content6}) => {
   <div className="lg:w-[30%] h-[270px] bg-white rounded-lg border border-gray-300 shadow-lg flex justify-center items-center sm:w-[25%] sm:h-[300px] md:w-[30%] md:h-[320px]  lg:h-[350px] max-sm:w-[69%] p-[4%]">
     <div className="flex flex-col items-center">
       <div>
-        <LuBuilding  alt="icon" className="w-14 md:w-16 lg:w-20" /><br />
+        <LuBuilding  size='2rem' /><br />
       </div>
       <div>
         <h1 className="text-[#4D4D4D] font-bold text-2xl sm:text-xl md:text-2xl lg:text-3xl max-sm:ml-10 lg:ml-10">{content3}</h1>
@@ -45,7 +45,7 @@ const Cards = ({content,content2,content3,content4,content5,content6}) => {
   <div className="w-[60%]  lg:w-[30%]  h-[270px] bg-white rounded-lg border border-gray-300 shadow-lg flex justify-center items-center sm:w-[25%] sm:h-[300px] md:w-[30%] md:h-[320px] lg:w-[18%] lg:h-[350px] max-sm:w-[69%] p-[4%]">
     <div className="flex flex-col items-center">
       <div className=''>
-        <FaRegHandSpock alt="icon" className=" md:w-16 lg:w-20" /><br />
+        <FaRegHandSpock size='2rem' /><br />
       </div>
       <div>
         <h1 className="text-[#4D4D4D] font-bold text-2xl sm:text-xl md:text-2xl lg:text-3xl lg:ml-5">{content5}</h1>

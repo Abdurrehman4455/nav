@@ -13,6 +13,9 @@ import CommunityUpdate from './Sections/CommunityUpdate';
 import Footer from './Sections/Footer';
 import BigFooter from './Sections/BigFooter';
 import Slider from 'react-slick/lib/slider';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Register from'./Compoments/Register';
+
 
 function App() {
   return (
@@ -60,7 +63,7 @@ function App() {
        <section>
         <BigFooter className='font-serif'/>
        </section>
-      
+ 
        
       
        

@@ -25,25 +25,25 @@ const Clients = () => {
   
       <div className='pt-10 flex pl-[10px] w-full justify-around max-sm:flex max-sm:items-center md:pl-0 md:justify-between md:pt-8 md:ml-2 lg:ml-[5%]'>
         <div className='md:w-[12%]'>
-        <PiWebcamBold className='max-sm:ml-2 md:ml-0 md:w-[50%] lg:w-[55%]' /> 
+        <PiWebcamBold size='2rem' /> 
         </div>
         <div className='pl-[15px] md:pl-0 md:w-[12%]'>
-        <ImAirplane className='md:w-[55%] lg:w-[30%]'/>
+        <ImAirplane  size="2rem" />
         </div>
         <div className='pl-[15px] md:pl-0 md:w-[12%]'>
-        <ImPhone className='md:w-[50%] lg:w-[30%]'  /> 
+        <ImPhone size="2rem"  /> 
         </div>
         <div className='pl-[15px] md:pl-0 md:w-[12%]'>
-          <FaCode className='md:w-[50%] lg:w-[30%]' />
+          <FaCode  size="2rem"/>
         </div>
         <div className='pl-[15px] md:pl-0 md:w-[12%]'>
-          <ImUserCheck  className='md:w-[50%] lg:w-[30%]' />
+          <ImUserCheck  size="2rem" />
         </div>
         <div className='pl-[15px] md:pl-0 md:w-[12%]'>
-          <ImAndroid className='md:w-[50%] lg:w-[30%]' />
+          <ImAndroid  size="2rem" />
         </div>
         <div className='pl-[15px] md:pl-0 md:w-[12%]'>
-          <ImWhatsapp className='md:w-[50%] lg:w-[30%]' />
+          <ImWhatsapp  size="2rem" />
         </div>
       </div>
     </div>

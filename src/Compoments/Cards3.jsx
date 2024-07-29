@@ -28,7 +28,7 @@ const Cards3 = () => {
       <p className='text-[#717171]'>Revamping the Membership Model with Triathlon Australia</p>
       <div className='flex justify-center'>
         <a className='text-green-500'><p>Readme more</p></a>
-        <div className='text-green-400 ml-2 mt-1'><FaLongArrowAltRight/></div>
+        <div className='text-green-400 ml-2 mt-1'><FaLongArrowAltRight size/></div>
       </div>
     </div>
   </div>
