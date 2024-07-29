@@ -15,7 +15,7 @@ const Cards3 = () => {
     </div>
   </div>
   <div className='bg-cards-bg w-64 h-64 bg-no-repeat flex items-center justify-center max-sm:mb-10'>
-    <div className='w-[90%] bg-[white] rounded-lg border-grey border-[2px] p-5 mt-[60%]'>
+    <div className='w-[90%] bg-[white] rounded-lg border-grey border-[2px] p-4 mt-[60%]'>
       <p className='text-[#717171]'>What are your safeguarding responsibilities and how can you manage them?</p>
       <div className='flex justify-center'>
         <a className='text-green-500'><p>Readme more</p></a>
